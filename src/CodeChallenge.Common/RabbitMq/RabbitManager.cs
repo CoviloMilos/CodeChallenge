@@ -52,19 +52,5 @@ namespace CodeChallenge.Common.RabbitMq
                 _objectPool.Return(channel);                  
             }  
         }
-
-        public void Consume<T>(T message) where T : class 
-        {
-            
-            var channel = _objectPool.Get();
-
-            var consumer = new EventingBasicConsumer(channel);
-            consumer.Received += (ch, ea) => 
-            {
-                var content = System.Text.Encoding.UTF8.GetString(ea.Body);
-            };
-
-            channel.BasicConsume("queue-global-error-handler", false, null);
-        }
     }
 }
