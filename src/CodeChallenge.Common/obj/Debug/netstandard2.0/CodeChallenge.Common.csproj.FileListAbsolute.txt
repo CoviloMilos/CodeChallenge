@@ -1,0 +1,9 @@
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/bin/Debug/netstandard2.0/CodeChallenge.Common.deps.json
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/bin/Debug/netstandard2.0/CodeChallenge.Common.dll
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/bin/Debug/netstandard2.0/CodeChallenge.Common.pdb
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/obj/Debug/netstandard2.0/CodeChallenge.Common.csprojAssemblyReference.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/obj/Debug/netstandard2.0/CodeChallenge.Common.csproj.CoreCompileInputs.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/obj/Debug/netstandard2.0/CodeChallenge.Common.AssemblyInfoInputs.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/obj/Debug/netstandard2.0/CodeChallenge.Common.AssemblyInfo.cs
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/obj/Debug/netstandard2.0/CodeChallenge.Common.dll
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/obj/Debug/netstandard2.0/CodeChallenge.Common.pdb

@@ -1,0 +1,55 @@
+{
+    "users": [
+      {
+        "name": "guest",
+        "password_hash": "SmzsFLhGrxpUgw0bgiRLhl+H97QcmYHBv7d6UeIRGowUrRRd",
+        "tags": "administrator"
+      }
+    ],
+    "vhosts": [
+      {
+        "name": "/"
+      }
+    ],
+    "permissions": [
+      {
+        "user": "guest",
+        "vhost": "/",
+        "configure": ".*",
+        "write": ".*",
+        "read": ".*"
+      }
+    ],
+    "parameters": [],
+    "policies": [],
+    "exchanges": [
+        {
+          "name": "exchange-global-error-handler",
+          "vhost": "/",
+          "type": "fanout",
+          "durable": true,
+          "auto_delete": false,
+          "internal": false,
+          "arguments": {}
+        }
+      ],
+      "queues": [
+        {
+          "name": "queue-global-error-handler",
+          "vhost": "/",
+          "durable": true,
+          "auto_delete": false,
+          "arguments": {}
+        }
+      ],
+      "bindings": [
+        {
+          "source": "exchange-global-error-handler",
+          "vhost": "/",
+          "destination": "queue-global-error-handler",
+          "destination_type": "queue",
+          "routing_key": "secret-key",
+          "arguments": {}
+        }
+      ]
+}

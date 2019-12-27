@@ -1,0 +1,17 @@
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/Task.Api.deps.json
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/Task.Api.runtimeconfig.json
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/Task.Api.runtimeconfig.dev.json
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/Task.Api.dll
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/Task.Api.pdb
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.csprojAssemblyReference.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.csproj.CoreCompileInputs.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.RazorAssemblyInfo.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.RazorAssemblyInfo.cs
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.AssemblyInfoInputs.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.AssemblyInfo.cs
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.RazorTargetAssemblyInfo.cache
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.dll
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.pdb
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/CodeChallenge.Common.dll
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/bin/Debug/netcoreapp2.2/CodeChallenge.Common.pdb
+/home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/obj/Debug/netcoreapp2.2/Task.Api.csproj.CopyComplete

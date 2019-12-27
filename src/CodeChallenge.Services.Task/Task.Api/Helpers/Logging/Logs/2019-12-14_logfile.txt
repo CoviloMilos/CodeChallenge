@@ -1,0 +1,111 @@
+2019-12-14 22:00:00.7651 INFO Creating connection to RabbitMQ
+2019-12-14 22:00:35.5015 INFO [REQUEST INFO] Method: GET Scheme: https CotentType:  Target: localhost:5001/task/home/throwEx
+2019-12-14 22:00:35.6723 ERROR Something went wrong. Publishing exception to RabbitMq:
+Exception source: Task.Api
+ProblemCodeChallenge.Common.Exceptions.CustomException: Manual testing publish msg to RabbitMq
+   at Task.Api.Controllers.HomeController.ThrowEx() in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/Controllers/HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at CodeChallenge.Common.RequestInvoker.RequestInvokerMiddleware.InvokeAsync(HttpContext httpContext) in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/RequestInvoker/RequestInvokerMiddleware.cs:line 28
+2019-12-14 22:00:35.8833 INFO Publishing message to RabbitMQ
+2019-12-14 22:00:47.5971 INFO [REQUEST INFO] Method: GET Scheme: https CotentType:  Target: localhost:5001/task/home/throwEx
+2019-12-14 22:00:47.6010 ERROR Something went wrong. Publishing exception to RabbitMq:
+Exception source: Task.Api
+ProblemCodeChallenge.Common.Exceptions.CustomException: Manual testing publish msg to RabbitMq
+   at Task.Api.Controllers.HomeController.ThrowEx() in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/Controllers/HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at CodeChallenge.Common.RequestInvoker.RequestInvokerMiddleware.InvokeAsync(HttpContext httpContext) in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/RequestInvoker/RequestInvokerMiddleware.cs:line 28
+2019-12-14 22:00:47.6010 INFO Publishing message to RabbitMQ
+2019-12-14 22:00:48.7849 INFO [REQUEST INFO] Method: GET Scheme: https CotentType:  Target: localhost:5001/task/home/throwEx
+2019-12-14 22:00:48.7885 ERROR Something went wrong. Publishing exception to RabbitMq:
+Exception source: Task.Api
+ProblemCodeChallenge.Common.Exceptions.CustomException: Manual testing publish msg to RabbitMq
+   at Task.Api.Controllers.HomeController.ThrowEx() in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/Controllers/HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at CodeChallenge.Common.RequestInvoker.RequestInvokerMiddleware.InvokeAsync(HttpContext httpContext) in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/RequestInvoker/RequestInvokerMiddleware.cs:line 28
+2019-12-14 22:00:48.7885 INFO Publishing message to RabbitMQ
+2019-12-14 22:00:49.6215 INFO [REQUEST INFO] Method: GET Scheme: https CotentType:  Target: localhost:5001/task/home/throwEx
+2019-12-14 22:00:49.6234 ERROR Something went wrong. Publishing exception to RabbitMq:
+Exception source: Task.Api
+ProblemCodeChallenge.Common.Exceptions.CustomException: Manual testing publish msg to RabbitMq
+   at Task.Api.Controllers.HomeController.ThrowEx() in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/Controllers/HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at CodeChallenge.Common.RequestInvoker.RequestInvokerMiddleware.InvokeAsync(HttpContext httpContext) in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/RequestInvoker/RequestInvokerMiddleware.cs:line 28
+2019-12-14 22:00:49.6234 INFO Publishing message to RabbitMQ
+2019-12-14 22:00:50.1329 INFO [REQUEST INFO] Method: GET Scheme: https CotentType:  Target: localhost:5001/task/home/throwEx
+2019-12-14 22:00:50.1383 ERROR Something went wrong. Publishing exception to RabbitMq:
+Exception source: Task.Api
+ProblemCodeChallenge.Common.Exceptions.CustomException: Manual testing publish msg to RabbitMq
+   at Task.Api.Controllers.HomeController.ThrowEx() in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Services.Task/Task.Api/Controllers/HomeController.cs:line 15
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at CodeChallenge.Common.RequestInvoker.RequestInvokerMiddleware.InvokeAsync(HttpContext httpContext) in /home/covilo/workspace/projects/diplomski/CodeChallenge/src/CodeChallenge.Common/RequestInvoker/RequestInvokerMiddleware.cs:line 28
+2019-12-14 22:00:50.1383 INFO Publishing message to RabbitMQ
