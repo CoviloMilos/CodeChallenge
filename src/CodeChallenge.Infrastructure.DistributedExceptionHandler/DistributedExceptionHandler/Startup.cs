@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using DistributedExceptionHandler.Interfaces;
+using NLog;
+using System;
+using System.IO;
 
 namespace DistributedExceptionHandler
 {
@@ -16,6 +19,7 @@ namespace DistributedExceptionHandler
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 

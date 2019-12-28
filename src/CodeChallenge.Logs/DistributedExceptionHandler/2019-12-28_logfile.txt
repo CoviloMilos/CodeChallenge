@@ -1,0 +1,40 @@
+2019-12-28 21:20:02.0682 INFO Creating connection to RabbitMQ
+2019-12-28 21:20:02.2752 INFO RabbitBackgroundWorker started
+2019-12-28 21:20:02.2941 INFO Consuming messages
+2019-12-28 21:20:02.4897 INFO Inserting exception message cf80166e-2406-49be-a43f-0f21b7e40af8 to postgres database
+2019-12-28 21:20:03.4066 INFO Consuming messages
+2019-12-28 21:20:03.4066 INFO Inserting exception message 00f47ec1-ad5d-49e0-96a4-cb044f81fcb0 to postgres database
+2019-12-28 21:20:03.4194 INFO Consuming messages
+2019-12-28 21:20:03.4211 INFO Inserting exception message ad3f5b31-a007-4a55-b077-5349b9bcf35d to postgres database
+2019-12-28 21:20:03.4247 INFO Consuming messages
+2019-12-28 21:20:03.4247 INFO Inserting exception message 26e3317e-b687-49b6-acde-e6952c8db185 to postgres database
+2019-12-28 21:20:03.4302 INFO Consuming messages
+2019-12-28 21:20:03.4302 INFO Inserting exception message 1540088a-1743-4f5e-87f5-a630604162d7 to postgres database
+2019-12-28 21:22:18.6741 INFO Consuming messages
+2019-12-28 21:22:18.6741 ERROR Could not Deserialize Exception Model or insert it to database
+2019-12-28 21:22:20.0962 INFO Consuming messages
+2019-12-28 21:22:20.0966 ERROR Could not Deserialize Exception Model or insert it to database
+2019-12-28 21:22:22.7405 INFO Consuming messages
+2019-12-28 21:22:22.7405 ERROR Could not Deserialize Exception Model or insert it to database
+2019-12-28 21:23:14.9806 INFO Creating connection to RabbitMQ
+2019-12-28 21:23:15.4221 INFO RabbitBackgroundWorker started
+2019-12-28 21:23:27.8412 INFO Consuming messages
+2019-12-28 21:24:35.9716 ERROR Could not Deserialize Exception Model or insert it to database
+2019-12-28 21:24:43.2216 INFO Consuming messages
+2019-12-28 21:24:44.2686 ERROR Could not Deserialize Exception Model or insert it to database
+2019-12-28 21:24:44.2969 INFO Consuming messages
+2019-12-28 21:52:53.4862 INFO Creating connection to RabbitMQ
+2019-12-28 21:52:59.1161 INFO RabbitBackgroundWorker started
+2019-12-28 21:53:01.9801 INFO Consuming messages
+2019-12-28 21:53:02.4928 INFO Inserting exception message 692eaa49-a113-4371-a4b2-172f98db35d9 to postgres database
+2019-12-28 21:53:03.6988 INFO Restoring all Exception Model data from database for SignalR. This is first start of application.
+2019-12-28 21:53:04.9441 INFO Consuming messages
+2019-12-28 21:53:04.9452 INFO Inserting exception message 126ae3fc-59c9-43ad-98ec-73704f70ae43 to postgres database
+2019-12-28 21:53:04.9840 INFO Consuming messages
+2019-12-28 21:53:04.9844 INFO Inserting exception message 058dc5e4-e77e-4647-b385-e496c5d41281 to postgres database
+2019-12-28 21:53:05.0127 INFO Consuming messages
+2019-12-28 21:53:05.0127 INFO Inserting exception message 908f6192-3775-4a0d-9406-7d21405b4bc1 to postgres database
+2019-12-28 21:53:05.0259 INFO Consuming messages
+2019-12-28 21:53:05.0259 INFO Inserting exception message a2226e67-8ffa-4d85-b7ba-e979707dd0c1 to postgres database
+2019-12-28 21:53:05.0459 INFO Consuming messages
+2019-12-28 21:53:05.0459 INFO Inserting exception message 45e0c677-03fd-40b2-91a2-1289edde9ddb to postgres database
