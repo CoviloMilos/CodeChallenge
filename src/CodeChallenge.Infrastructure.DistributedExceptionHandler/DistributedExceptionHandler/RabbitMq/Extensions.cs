@@ -20,7 +20,9 @@ namespace DistributedExceptionHandler.RabbitMq
 
             services.AddSingleton<ObjectPoolProvider, DefaultObjectPoolProvider>();
             services.AddSingleton<IPooledObjectPolicy<IModel>, RabbitModelPooledObjectPolicy>(); 
-            services.AddScoped<IRabbitConsume, RabbitConsume>();
+            services.AddHostedService<RabbitMessageHandler>();
+            //services.AddScoped<IRabbitConsume, RabbitConsume>();
+            //services.AddHostedService<RabbitListener>();
   
             return services;
         }

@@ -5,7 +5,7 @@ namespace DistributedExceptionHandler.Interfaces
 {
     public interface IExceptionRepository
     {
-         Task AddException(ExceptionModel exceptionModel);
-         Task<bool> SaveAll();
+         void AddException(ExceptionModel exceptionModel);
+         bool SaveAll();
     }
 }

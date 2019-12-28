@@ -38,11 +38,9 @@ namespace DistributedExceptionHandler.Services
         private void OnConsumerShutdown(object sender, ShutdownEventArgs e) {  }  
         private void RabbitMQ_ConnectionShutdown(object sender, ShutdownEventArgs e)  {  }  
     
-        /*public override void Dispose()  
+        public override void Dispose()  
         {  
-            _channel.Close();  
-            _connection.Close();  
             base.Dispose();  
-        } */
+        } 
     }
 }

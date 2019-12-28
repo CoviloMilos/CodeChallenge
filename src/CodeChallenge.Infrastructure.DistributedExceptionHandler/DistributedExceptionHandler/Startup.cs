@@ -24,14 +24,16 @@ namespace DistributedExceptionHandler
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IExceptionRepository, ExceptionRepository>();
+            //services.AddHostedService<ChapterLister>();
             services.AddRabbitMq(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<ExceptionDataContext>(opt => 
             {
                 opt.UseNpgsql(Configuration.GetConnectionString("postgres-connection"));
             });
-            services.AddHostedService<ConsumeRabbitMqBackgroundService>();  
-            services.AddScoped<IExceptionRepository, ExceptionRepository>();
+            //services.AddHostedService<ConsumeRabbitMqBackgroundService>();  
+            
             services.AddSingleton<ILoggerManager, LoggerManager>();
         }
 

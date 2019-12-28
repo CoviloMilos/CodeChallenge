@@ -47,15 +47,14 @@ namespace DistributedExceptionHandler.Services
             consumer.ConsumerCancelled += OnConsumerConsumerCancelled;  
     
             channel.BasicConsume(_rabbitQueueOptions.Queue, false, consumer);  
-
         }
 
-        private async void HandleMessage(string content)  
+        private void HandleMessage(string content)  
         {  
             var exceptionModel = ExceptionModel.DeserializeModel(content);
-            await _exceptionRepository.AddException(exceptionModel);
+            _exceptionRepository.AddException(exceptionModel);
 
-            if (await _exceptionRepository.SaveAll()) 
+            if (_exceptionRepository.SaveAll()) 
             {
                 Console.WriteLine($"SAVED CONTENT content: {content}");  
                 _logger.LogInfo($"SAVED CONTENT consumer received {content}"); 

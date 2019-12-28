@@ -13,17 +13,17 @@ namespace DistributedExceptionHandler.Repositories
             _context = context;
         }
 
-        public async Task AddException(ExceptionModel exceptionModel)
+        public void AddException(ExceptionModel exceptionModel)
         {
-            await _context.AddAsync(exceptionModel);
+            _context.AddAsync(exceptionModel);
         }
 
-        public async Task<bool> SaveAll()
+        public bool SaveAll()
         {
             var a = true;
             try
             {
-              a= await _context.SaveChangesAsync() > 0;   
+              a=  _context.SaveChanges() > 0;   
             }
             catch (System.Exception)
             {
