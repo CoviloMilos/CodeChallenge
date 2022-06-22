@@ -9,7 +9,7 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4"/>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.1"/>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1"/>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
     <PackageReference Include="NLog.Extensions.Logging" Version="1.1.0"/>
     <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="2.6.7"/>
     <PackageReference Include="ZNetCS.AspNetCore.Authentication.Basic" Version="2.0.0"/>
